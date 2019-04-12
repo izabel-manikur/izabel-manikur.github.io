@@ -1,0 +1,66 @@
+@font-face {
+    font-family: ddd; /* Имя шрифта */
+    src: url(15358.otf); /* Путь к файлу со шрифтом */
+   }
+.nav{
+    display: block;
+    background: rgba(216, 137, 168, 0.781) 
+
+}
+.nav .menu{
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    list-style: none outside none;
+}
+.nav li {
+    display: inline-block;
+    margin: 0 10px;
+    font-size:  20px;
+    font-weight: 600; 
+    line-height:  40px; 
+}
+.nav li a{
+    display: block;
+    height: 100%;
+    padding: 6px 12px;
+    color: white;
+    text-decoration: none;
+}
+.nav li :hover a {
+    background: rgba(0,0,0,.3);
+}
+h1 {
+    text-align: center;
+    color:rgba(216, 137, 168, 0.781);
+    font-family: ddd;
+    letter-spacing: 5px;
+    font-size: 60px;
+}
+.levo {
+    width: 35%;
+    float: left;
+    padding: 0 0 0 15px;
+}
+.pravo {
+    width: 60%;
+    float: right;
+}
+footer {
+    clear: both;
+    background: rgba(216, 137, 168, 0.781);
+    color:white;
+    text-align: center;
+    height: 50px;
+    line-height: 45px;
+}
+h2 {
+    text-align: center;
+}
+.foto {
+    width: 32.5%;
+    display: inline-block;
+}
